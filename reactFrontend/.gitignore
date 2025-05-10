@@ -38,17 +38,17 @@ htmlcov/
 # Uvicorn reload cache
 reload.db
 
-# Node modules and reactFrontend build files
+# Node modules and frontend build files
 node_modules/
-reactFrontend/node_modules/
+node_modules/
 
 # React build files
-reactFrontend/build/
-reactFrontend/.next/
+build/
+.next/
 
 # Yarn and NPM lock files
-reactFrontend/package-lock.json
-reactFrontend/yarn.lock
+package-lock.json
+yarn.lock
 
 # IDE and editor specific settings
 .idea/
@@ -67,17 +67,18 @@ yarn-error.log*
 # TypeScript specific
 *.tsbuildinfo
 
-# reactFrontend local env files
-reactFrontend/.env.local
-reactFrontend/.env.development
-reactFrontend/.env.production
-reactFrontend/.env.test
+# Frontend local env files
+.env.local
+.env.development
+.env.production
+.env.test
 
 # Next.js (if used)
 .next/
 
 # Storybook (if used)
 .storybook/
+
 
 
 # Static file caches
