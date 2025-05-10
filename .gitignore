@@ -4,11 +4,11 @@ __pycache__/
 *.pyo
 
 # Virtual environments
-venv/
 env/
 .AI_Backend/ecom/
 .AI_Backend/ecom
 AI_Backend/ecom/
+
 # VSCode
 .vscode/
 
@@ -37,3 +37,54 @@ htmlcov/
 
 # Uvicorn reload cache
 reload.db
+
+# Node modules and frontend build files
+node_modules/
+frontend/node_modules/
+
+# React build files
+frontend/build/
+frontend/.next/
+
+# Yarn and NPM lock files
+frontend/package-lock.json
+frontend/yarn.lock
+
+# IDE and editor specific settings
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Webpack / Babel config files
+webpack.config.js
+babel.config.js
+
+# Logs and debugging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Frontend local env files
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.env.test
+
+# Next.js (if used)
+.next/
+
+# Storybook (if used)
+.storybook/
+
+
+# Static file caches
+.cache/
+
+# Jest (if you use Jest for testing)
+jest/
+
+# ESLint cache
+.eslintcache
