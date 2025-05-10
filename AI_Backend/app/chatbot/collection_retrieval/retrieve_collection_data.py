@@ -9,9 +9,9 @@ import os
 load_dotenv()
 
 # Setup Cohere and Weaviate configuration
-COHERE_API_KEY = os.getenv("COHERE_API_KEY", "Gtj6rQ9Z3B1lwkwi8nD17u5V96hK1E8koirk2bDh")
-WEAVIATE_URL = os.getenv("WEAVIATE_URL", "https://svukoggor4kpoaycdu91ia.c0.europe-west3.gcp.weaviate.cloud")
-WEAVIATE_API_KEY = os.getenv("WEAVIATE_API_KEY", "D1fKozPYV0QjynVmadhi6QIOLJqTZn7aFOOd")
+COHERE_API_KEY = os.getenv("COHERE_API_KEY")
+WEAVIATE_URL = os.getenv("WEAVIATE_URL")
+WEAVIATE_API_KEY = os.getenv("WEAVIATE_API_KEY")
 
 # Initialize Cohere and Weaviate clients
 cohere_client = cohere.Client(COHERE_API_KEY)
